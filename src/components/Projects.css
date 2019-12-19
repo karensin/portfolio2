@@ -20,17 +20,18 @@
   left: 50%;
   transform: translateX(-50%); 
   top: 35%;
-  
  }
 
-.wrapper{
-        transition: 1s; 
-      position: relative;
+.wrapper {
+  transition: 1s; 
+  position: relative;
 }
 
-
-
-.wrapper :hover{
-  transition: 1s; 
+.wrapper:hover {
+  /*transition: 1s; */
   transform: rotate(20deg);
 }
+/*
+.wrapper div :hover {
+  transform: translateX(-50%);
+}*/
