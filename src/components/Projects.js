@@ -13,18 +13,26 @@ class Projects extends Component {
   
   render() {
     return (
-         <Container>
-          <Row>
-            <Col><Square className="projectBox" imgSrc = {process.env.PUBLIC_URL +
-          "/images/img.png" } linkSrc= "http://www.google.com">
-           <div className="projectName"> asdf </div>
-            </Square></Col>
-            <Col><Square className="projectBox">   </Square></Col>
-            <Col><Square className="projectBox">   </Square></Col>
-          </Row>
-        </Container>
-
-      )
+      <Container>
+        <Row>
+          <Col>
+            <Square className="projectBox" imgSrc = {process.env.PUBLIC_URL + "/images/img.png" } linkSrc = "http://www.google.com">
+              <div className="projectName"> asdf </div>
+            </Square>
+          </Col>
+          <Col>
+            <Square className="projectBox">
+              <div className="projectName"> asdf </div>
+            </Square>
+          </Col>
+          <Col>
+            <Square className="projectBox">
+              <div className="projectName"> asdf </div>
+            </Square>
+          </Col>
+        </Row>
+      </Container>
+    )
   }
 }
 

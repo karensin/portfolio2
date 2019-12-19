@@ -93,7 +93,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome</h1>
         </header>
-        <div className='topnav'/>
+        <div class='topnav'/>
         <h2> </h2>
         <Projects/>
            
