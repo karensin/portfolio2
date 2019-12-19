@@ -10,7 +10,8 @@ class Square extends Component {
         <a href = {this.props.linkSrc} > 
           <div className={this.props.className}
             style={{
-              height:this.props.containerWidth,
+              width: this.props.containerWidth * 0.8, 
+              height: this.props.containerWidth * 0.8,
               backgroundImage:"url(" + this.props.imgSrc + ")"
             }}>
             {this.props.children}

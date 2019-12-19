@@ -13,7 +13,7 @@ class Projects extends Component {
   
   render() {
     return (
-      <Container>
+      <Container className=".mt-4">
         <Row>
           <Col>
             <Square className="projectBox" imgSrc = {process.env.PUBLIC_URL + "/images/img.png" } linkSrc = "http://www.google.com">

@@ -1,5 +1,3 @@
-
-
 .projectBox {
   background-color: pink;
   background-size: cover;
@@ -16,7 +14,7 @@
   padding: 10px 20px;
   font-size: 20pt;
   font-family: "Garamond";  
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%); 
   top: 35%;
@@ -29,9 +27,13 @@
 
 .wrapper:hover {
   /*transition: 1s; */
-  transform: rotate(20deg);
+  transform: scale(1.1);
 }
 /*
 .wrapper div :hover {
   transform: translateX(-50%);
 }*/
+
+.container {
+  margin-top: 30px;
+}
