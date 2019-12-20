@@ -6,18 +6,17 @@ import './Projects.css';
 class Square extends Component {
   render (){
     return (
-      <div className= "wrapper"> 
-        <a href = {this.props.linkSrc} > 
-          <div className={this.props.className}
+
+        <a href = {this.props.linkSrc} className={this.props.className}
             style={{
               width: this.props.containerWidth * 0.8, 
               height: this.props.containerWidth * 0.8,
+              left: this.props.containerWidth * 0.1,
               backgroundImage:"url(" + this.props.imgSrc + ")"
-            }}>
+            }}> 
             {this.props.children}
-          </div>
         </a>
-      </div>
+
     );
   }
 }

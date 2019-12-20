@@ -4,6 +4,9 @@
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
+  margin: 0;
+  position: relative;
+  display: inline-block;
 }
 
 .projectName {
@@ -20,19 +23,38 @@
   top: 35%;
  }
 
-.wrapper {
-  transition: 1s; 
+.projectsBox {
+  transition: ease-in-out 0.8s; 
   position: relative;
+  margin: 0;
+  /*opacity: 0.6;*/
 }
 
-.wrapper:hover {
-  /*transition: 1s; */
-  transform: scale(1.1);
+.projectBox {
+  transition: ease-in-out 0.3s; 
 }
-/*
-.wrapper div :hover {
-  transform: translateX(-50%);
-}*/
+
+.projectBox:hover {
+  /*transition: 1s; */
+  transform: scale(1.15);
+  opacity: 1 !important;
+}
+
+.projectsBox {
+  pointer-events: none;
+}
+
+.projectsBox .projectBox {
+  pointer-events: auto;
+}
+
+.projectsBox:hover .projectBox {
+  opacity: 0.5;
+}
+
+.projectsBox:hover .projectBox:hover {
+  opacity: 1;
+}
 
 .container {
   margin-top: 30px;
