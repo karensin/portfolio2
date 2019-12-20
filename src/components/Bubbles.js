@@ -13,8 +13,8 @@ class Bubbles extends Component {
         return (
 
             <div className= "bubble" style={{
-                // left:this.props.x,
-                // top:this.props.y,
+                left:this.props.x,
+                top:this.props.y,
                 position: "absolute"
             }}>  
             </div>
