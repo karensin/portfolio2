@@ -91,7 +91,26 @@ class App extends Component {
       <div className="App" onMouseMove={this._onMouseMove.bind(this) }>
         {bubbles}
         <header className="App-header">
-          <h1 className="App-title">Welcome</h1>
+            <div className="container">
+                <div className="row">
+                    <div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">Resume</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div className="title">
+                    <h1> KAREN SIN </h1>
+                    <h4> Developer | Web designer | Explorer </h4>
+                    <a href="#" className="btn">Let's Collab!</a>
+
+                </div>
+            </div>
         </header>
         <div class='topnav'/>
         <h2> </h2>

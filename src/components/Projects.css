@@ -24,14 +24,14 @@
  }
 
 .projectsBox {
-  transition: ease-in-out 0.8s; 
+  transition: ease-in-out 0.8s;
   position: relative;
   margin: 0;
   /*opacity: 0.6;*/
 }
 
 .projectBox {
-  transition: ease-in-out 0.3s; 
+  transition: ease-in-out 0.3s;
 }
 
 .projectBox:hover {

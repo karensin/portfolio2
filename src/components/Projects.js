@@ -16,8 +16,9 @@ class Projects extends Component {
       <Container className=".mt-4">
         <Row className = 'projectsBox'>
           <Col>
-            <Square className="projectBox" imgSrc = {process.env.PUBLIC_URL + "/images/img.png" } linkSrc = "http://www.google.com">
-              <div className="projectName"> asdf </div>
+            <Square className="projectBox" {process.env.PUBLIC_URL +
+          "/images/MeeseeksBox.jpg" } linkSrc= "https://www.facebook.com/meeseeksBox2019">
+              <div className="projectName">Meeseeks Bot</div>
             </Square>
           </Col>
           <Col>
