@@ -44,3 +44,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 # portfolio2
 # portfolio2
+
+
+Inspirations:
+How to fade out the squares: https://www.trysmudford.com/blog/fade-out-siblings-css-trick/
+How to make the bubbles look pretty: https://codepen.io/Mark_Bowley/pen/mEtqj
