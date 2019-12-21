@@ -14,7 +14,6 @@ html {
 }
 
 #root, .App {
-  height: 100%;
   /*position: relative;*/
   min-height: 100%;
 }

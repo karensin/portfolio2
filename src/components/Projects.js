@@ -12,20 +12,22 @@ class Projects extends Component {
     }
   
     render() {
-        return <Container className=".mt-4">
-            <Row className='projectsBox'>
-                <Col>
-                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/MeeseeksBox.jpg"}
-                            linkSrc="https://www.facebook.com/meeseeksBox2019" projName="Meeseeks Bot"/>
-                </Col>
-                <Col>
-                    <Square className="projectBox"/>
-                </Col>
-                <Col>
-                    <Square className="projectBox"/>
-                </Col>
-            </Row>
-        </Container>
+        return (
+            <Container fluid={true}>
+                <Row className='projectsBox'>
+                    <Col>
+                        <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/MeeseeksBox.jpg"}
+                                linkSrc="https://www.facebook.com/meeseeksBox2019" projName="Meeseeks Bot"/>
+                    </Col>
+                    <Col>
+                        <Square className="projectBox"/>
+                    </Col>
+                    <Col>
+                        <Square className="projectBox"/>
+                    </Col>
+                </Row>
+            </Container>
+        )
     }
 }
 

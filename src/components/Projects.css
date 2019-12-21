@@ -12,7 +12,8 @@
   border: white 3px solid ;
   text-align: center; 
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 20px;
+  background: rgba(255,255,255,0.4);
   font-size: 20pt;
   font-family: "Garamond", sans-serif;
   position: relative;
