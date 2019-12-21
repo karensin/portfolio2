@@ -1,9 +1,7 @@
 .projectBox {
-  background-color: pink;
   background-size: cover;
   width: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: pink no-repeat center center;
   margin: 0;
   position: relative;
   display: inline-block;
@@ -16,10 +14,8 @@
   display: inline-block;
   padding: 10px 20px;
   font-size: 20pt;
-  font-family: "Garamond";  
+  font-family: "Garamond", sans-serif;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%); 
   top: 35%;
  }
 
@@ -27,7 +23,6 @@
   transition: ease-in-out 0.8s;
   position: relative;
   margin: 0;
-  /*opacity: 0.6;*/
 }
 
 .projectBox {
@@ -35,7 +30,6 @@
 }
 
 .projectBox:hover {
-  /*transition: 1s; */
   transform: scale(1.15);
   opacity: 1 !important;
 }
