@@ -34,7 +34,7 @@ class App extends Component {
   _onMouseMove(e) {
     const currTime = + new Date();
     if (currTime > this.state.lastBubbleStamp + getRandomArbitrary(minBubbleTime, maxBubbleTime)) {
-      const direction = Math.random() > 0.5 ? -1 : 1
+      const direction = Math.random() > 0.5 ? -1 : 1;
       this.state.bubbles.push({x:e.clientX, y: e.clientY, size: getRandomArbitrary(minBubbleSize, maxBubbleSize), direction: direction, lastTurnTime: currTime, lastGrowTime: currTime});
       this.setState({lastBubbleStamp: currTime});
     }
@@ -112,7 +112,6 @@ class App extends Component {
                 </div>
             </div>
         </header>
-        <div class='topnav'/>
         <h2> </h2>
         <Projects/>
            
