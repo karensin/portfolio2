@@ -90,9 +90,9 @@ header {
   text-align: center;
 }
 .projects{
-  background: url("/images/header.jpeg") no-repeat fixed center /cover;
-
-
+  background: url("/images/background.jpeg") no-repeat  center /cover;
+  padding-top: 50px;
+ 
 }
 
 nav ul, .contact ul {
