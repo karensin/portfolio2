@@ -1,16 +1,17 @@
 .projectBox {
   background-size: cover;
   width: 100%;
-  background: pink no-repeat center center;
+  background:  no-repeat center;
   margin: 0;
   position: relative;
   display: inline-block;
+  border-radius: 10%;
 }
 
 .projectName {
   color: white;
   border: white 3px solid ;
-  text-align: center; 
+   text-align: center; 
   display: inline-block;
   padding: 5px 20px;
   background: rgba(255,255,255,0.4);
@@ -24,10 +25,13 @@
   transition: ease-in-out 0.8s;
   position: relative;
   margin: 0;
+  width: 80;
 }
 
 .projectBox {
   transition: ease-in-out 0.3s;
+  background-size: contain;
+  background-color: darkslategray;
 }
 
 .projectBox:hover {

@@ -18,13 +18,35 @@ class Projects extends Component {
                     <Col>
                         <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/MeeseeksBox.jpg"}
                                 linkSrc="https://www.facebook.com/meeseeksBox2019" projName="Meeseeks Bot"/>
+                                  <p className = "description"> Meeseeks bot is a messenger bot that is designed to perform automated voice 
+                                    and text message responses. This technology required webhooks for token
+                                    verification and special features to make the user experience more entertaining 
+                                    and exciting. 
+                                </p>
                     </Col>
                     <Col>
-                        <Square className="projectBox"/>
+                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/bloccit.jpg"}
+                                linkSrc="https://karensin-bloccit.herokuapp.com/" projName="Bloccit"/>
+                                    <p className ='description'> An Application that uses the Model-View-Controller Pattern (MVC) to handle a seperation of concerns,
+										allowing easier manipulation in sections and functionality.
+                    Application utilizes ExpressJS - Middleware to perform authentication and validation which allows users to sign up,
+                    sign in and create topics, posts, comments and votes amongst others.
+                                    </p>
                     </Col>
                     <Col>
-                        <Square className="projectBox"/>
+                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/Chatty.jpg"}
+                                linkSrc="https://chat-ty.herokuapp.com/" projName="Chatty"/>
+                                <p className= 'description'> An application based on Firebase (BaaS) that authenticate users 
+                                    using Google sign-in, sends and recieves messages in real time</p>
                     </Col>
+
+                    <Col>
+                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/MusicPlayer.jpg"}
+                                linkSrc="https://jams-ksin.herokuapp.com/" projName="Chatty"/>
+                                <p className= 'description'> A music player made using React Router to create a Single-Page Application to handle client-side page transitions</p>
+                    </Col>
+
+
                 </Row>
             </Container>
         )

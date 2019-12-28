@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Projects from './components/Projects.js';
 import Bubbles from './components/Bubbles.js';
-
-
+ 
 const bubbleMoveSpeed = 2.5;
 const minBubbleTime = 50;
 const maxBubbleTime = 1000;
@@ -93,28 +92,27 @@ class App extends Component {
         <header className="App-header">
             <div className="container">
                 <div className="row">
-                    <div>
                         <nav>
                             <ul>
-                                <li><a href="#">About</a></li>
+                                <li><a href="#">About Me</a></li>
                                 <li><a href="#">Projects</a></li>
-                                <li><a href="#">Resume</a></li>
+                                <li><a href= "resume.html">Resume</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
                         </nav>
-                    </div>
                 </div>
                 <div className="title">
                     <h1> KAREN SIN </h1>
                     <h4> Developer | Web designer | Explorer </h4>
-                    <a href="#" className="btn">Let's Collab!</a>
-
+                    <a href="#" className="btn"> Let's Collab!</a> 
                 </div>
             </div>
         </header>
-        <h2> </h2>
-        <Projects/>
-           
+        <section className= 'projects'>
+          <Projects/>
+        </section>
+         <footer> KarenSin 2019</footer>
+
       </div>
     );
   }
