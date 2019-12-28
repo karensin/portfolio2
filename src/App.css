@@ -36,7 +36,7 @@ h1{
 .App-header {
   background-color: #222;
   height: 800px;
-  padding: 20px;
+  padding: 0px;
  }
 
 .App-title {
@@ -166,3 +166,12 @@ footer{
  padding-top: 10%;
 
 }
+
+.resume *{
+
+ position: relative;
+ 
+ margin-top: 50px;
+ width: 80% ;
+}
+

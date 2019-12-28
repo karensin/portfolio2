@@ -9,6 +9,7 @@ class Square extends Component {
     const squareSize = '300px';
     // const left = this.props.containerWidth - 150;
     return (
+      <div>
         <a href = {this.props.linkSrc} className={this.props.className}
             style={{
               width: squareSize,
@@ -17,9 +18,9 @@ class Square extends Component {
               backgroundImage:"url(" + this.props.imgSrc + ")"
             }}>
             <div className="projectName">{this.props.projName}</div>
-            {this.props.children}
         </a>
-
+        {this.props.children}
+        </div>
     );
   }
 }

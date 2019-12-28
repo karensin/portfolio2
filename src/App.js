@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Projects from './components/Projects.js';
 import Bubbles from './components/Bubbles.js';
+import Resume from './components/Resume.js'; 
  
 const bubbleMoveSpeed = 2.5;
 const minBubbleTime = 50;
@@ -88,15 +89,17 @@ class App extends Component {
     });
     return (
       <div className="App" onMouseMove={this._onMouseMove.bind(this) }>
+        <div className="bob"> 
         {bubbles}
+        </div>
         <header className="App-header">
             <div className="container">
                 <div className="row">
                         <nav>
                             <ul>
                                 <li><a href="#">About Me</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href= "resume.html">Resume</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href= "#resume" >Resume</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
                         </nav>
@@ -108,8 +111,13 @@ class App extends Component {
                 </div>
             </div>
         </header>
-        <section className= 'projects'>
+        <section className= 'projects' id= "projects">
+          
           <Projects/>
+          
+        </section>
+        <section className= 'resume' id='resume'> 
+         <Resume/> 
         </section>
          <footer> KarenSin 2019</footer>
 
