@@ -99,10 +99,11 @@ class App extends Component {
                 <div className="row">
                         <nav>
                             <ul>
-                                <li><a href="#">About Me</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href= "#resume" >Resume</a></li>
-                                <li><a href="/contact">Contact</a></li>
+                            <li><a href="#">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href= "#resume" >Resume</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href= "/"> Home </a> </li> 
                             </ul>
                         </nav>
                 </div>
