@@ -110,7 +110,7 @@ class App extends Component {
                 <div className="title">
                     <h1> KAREN SIN </h1>
                     <h4> Developer | Web designer | Explorer </h4>
-                    <a href="#" className="btn"> Let's Collab!</a> 
+                    <a href="#contacts" className="btn"> Let's Collab!</a> 
                 </div>
             </div>
         </header>

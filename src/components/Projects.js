@@ -23,8 +23,10 @@ class Projects extends Component {
                                     verification and special features to make the user experience more entertaining 
                                     and exciting. 
                                 </p>
+                              
                         </Square>
                     </Col>
+
                     <Col>
                     <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/bloccit.jpg"}
                                 linkSrc="https://karensin-bloccit.herokuapp.com/" projName="Bloccit"> 
@@ -33,10 +35,11 @@ class Projects extends Component {
                     Application utilizes ExpressJS - Middleware to perform authentication and validation which allows users to sign up,
                     sign in and create topics, posts, comments and votes amongst others.
                                     </p>
+                                    
                     </Square>
                     </Col>
                     <Col>
-                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/Chatty.jpg"}
+                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/Chatty.png"}
                                 linkSrc="https://chat-ty.herokuapp.com/" projName="Chatty">
                                 <p className= 'description'> An application based on Firebase (BaaS) that authenticate users 
                                     using Google sign-in, sends and recieves messages in real time</p>
@@ -44,7 +47,7 @@ class Projects extends Component {
                     </Col>
 
                     <Col>
-                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/MusicPlayer.jpg"}
+                    <Square className="projectBox" imgSrc={process.env.PUBLIC_URL + "/images/musicPlayer.jpg"}
                                 linkSrc="https://jams-ksin.herokuapp.com/" projName="MusicPlayer">
                                 <p className= 'description'> A music player made using React Router to create a Single-Page Application to handle client-side page transitions</p>
                     </Square>
