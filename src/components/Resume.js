@@ -5,7 +5,7 @@ class Resume extends Component {
   render (){
       return (  
      
-        <img src={process.env.PUBLIC_URL + "/images/resume.jpg"}/>   
+        <img className= 'resume' src={process.env.PUBLIC_URL + "/images/resume.jpg"}/>   
  
       );
   }
