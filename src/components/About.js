@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
  
  
-class Contact extends Component {
+class About extends Component {
   render (){
     return (
         <div>
@@ -11,24 +11,16 @@ class Contact extends Component {
             <div className="row">
                     <nav>
                         <ul> 
-                            
                             <li><a href= "/"> Home </a> </li> 
-                            
                         </ul>
                     </nav>
             </div>
 
-            <div className="title">
-                <h1> KAREN SIN </h1>
-                <h4> Developer | Web designer | Explorer </h4>
-                <a href="/" className="btn"> Let's Collab!</a> 
-            </div>
-            
-        </div>
+             </div>
     </header>
               
     <section className='contacts'> 
-          <h3> Get in touch </h3>
+ 
           <a>  kkwsin@gmail.com  </a>
          <a href= 'https://www.linkedin.com/in/karensin94/'>  Linkedin  </a>
          <a href= 'https://github.com/karensin'>  Github   </a> 
@@ -44,4 +36,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default About;

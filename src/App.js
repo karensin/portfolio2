@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Projects from './components/Projects.js';
 import Bubbles from './components/Bubbles.js';
 import Resume from './components/Resume.js'; 
-
+ 
 
 const bubbleMoveSpeed = 2.5;
 const minBubbleTime = 50;
@@ -99,10 +98,10 @@ class App extends Component {
                 <div className="row">
                         <nav>
                             <ul>
-                            <li><a href="#">About Me</a></li>
+                            <li><a href="#contacts">Contact</a></li>
+                            <li><a href="/about">About Me</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href= "#resume" >Resume</a></li>
-                            <li><a href="/contact">Contact</a></li>
                             <li><a href= "/"> Home </a> </li> 
                             </ul>
                         </nav>
@@ -122,8 +121,18 @@ class App extends Component {
         </section>
         <section className= 'resume' id='resume'> 
          <Resume/> 
+   
         </section>
 
+        <section className='contacts' id='contacts'> 
+          <h3> Get in touch </h3>
+          <a>  kkwsin@gmail.com  </a>
+         <a href= 'https://www.linkedin.com/in/karensin94/'>  Linkedin  </a>
+         <a href= 'https://github.com/karensin'>  Github   </a> 
+         <a href= 'https://angel.co/karen-kaweng-sin'> Angel.co </a>
+             
+        
+         </section>
 
          <footer> KarenSin 2019</footer>
 

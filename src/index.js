@@ -6,13 +6,16 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Contact from './components/Contact.js';
 import { Route, Link } from 'react-router-dom';
+import Resume from './components/Resume.js'
+import About from './components/About.js'
 
 ReactDOM.render(  
     <BrowserRouter>
         <main>
-          <Route exact path="/contact" component={Contact} />
+     
           <Route exact path="/" component={App} />
-           
+          <Route exact path="/about" component={About} />
+          <Route exact path="/resume" component={Resume} />
          </main>
     </BrowserRouter>
   , document.getElementById('root'))
